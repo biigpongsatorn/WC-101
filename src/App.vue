@@ -11,9 +11,6 @@
     <div class="wc-body">
       <router-view/>
     </div>
-    <div class="wc-plugin">
-      PLUGIN
-    </div>
   </div>
 </template>
 
@@ -51,10 +48,6 @@ body {
 }
 .wc-body {
   float: left;
-  width: calc(100vw - 1px - 200px - 200px);
-}
-.wc-plugin {
-  float: left;
-  width: 200px;
+  width: calc(100vw - 1px - 200px);
 }
 </style>

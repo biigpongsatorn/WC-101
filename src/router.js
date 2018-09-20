@@ -17,6 +17,11 @@ export default new Router({
       path: '/vue-custom-element',
       name: 'vue-custom-element',
       component: () => import('./views/VueCustomElement.vue')
+    },
+    {
+      path: '/vue-web-component-wrapper',
+      name: 'vue-web-component-wrapper',
+      component: () => import('./views/VueWebComponentWrapper.vue')
     }
   ]
 })
