@@ -29,7 +29,7 @@ export default {
   },
   async mounted () {
     // await SystemJS.import('https://unpkg.com/vue@2.5.17/dist/vue.js')
-    await SystemJS.import('../script/chat-vue-web-component-wrapper.js')
+    await SystemJS.import('http://localhost:7002/chat-vue-web-component-wrapper.js')
     this.isReady = true
   },
   methods: {

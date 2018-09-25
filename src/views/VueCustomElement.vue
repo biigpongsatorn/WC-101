@@ -35,7 +35,7 @@ export default {
     }
   },
   async created () {
-    await SystemJS.import('../script/chat-vue-custom-element.js')
+    await SystemJS.import('http://localhost:7001/my-vue-component.js')
     this.isReady = true
   },
   methods: {
